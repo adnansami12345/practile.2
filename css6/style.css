@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140;
+    margin: 0 auto;
+}
+section{
+    padding: 25px 0px;
+}
+/*header section*/
+.header{
+    background: #223047;
+    width: 100%;
+    float: left;
+}
+.nav-section{
+    background: #223047;
+    color: white;
+    padding: 5px 0px;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    display: block;
+    margin: auto;
+}
+.menu{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.button-section{
+    width: 30%;
+    float: left;
+}
+.button-section button{
+  color: white;
+  padding: 10px 7px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  margin: 10px 20px;
+  background-color: #00fff0;
+}
+.button-section button a{
+    padding: 10px 7px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+nav{
+   display: block;
+   margin: 15px ;
+}
+nav ul li{
+   list-style: none;
+   display: inline;
+   margin: 0px 15px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #00fff0;
+  font-size: 25px;
+}
+.hero{
+   width: 100%;
+   float: left;
+}
+.writing-part{
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 150px 0px;
+    margin: 50px 0px;
+}
+.writing-part p{
+    color: gray;
+}
+.img-part{
+    width: 50%;
+    float: left;
+}
+.img-part img{
+    max-width: 100%;
+}
+.button-part button{
+    background: gray;
+    padding: 10px 7px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    margin: 10px 20px;
+    background-color: none;
+}
+.button-part button a{
+    text-decoration: none;
+    color: white;
+}
